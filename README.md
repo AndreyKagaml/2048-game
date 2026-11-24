@@ -8,7 +8,7 @@ A classic implementation of the **2048 puzzle game** built with HTML, SCSS and V
 
 The game is deployed via GitHub Pages and is publicly accessible here:
 
-[**Play the Game\!**](https://localhost)
+[**Play the Game\!**](https://andreykagaml.github.io/2048-game/)
 
 ---
 
@@ -42,7 +42,7 @@ Follow these instructions to run the project locally.
 Open your terminal and execute:
 
 ```bash
-git clone https://github.com/AndreyKagaml/2048-game
+git clone https://github.com/AndreyKagaml/2048-game.git
 cd 2048-game
 ```
 
@@ -78,6 +78,6 @@ yarn start
 
 ## Author
 
-**Andrey Kagaml**
+**Andrii Kahamlyk**
 
 GitHub: [AndreyKagaml](https://github.com/AndreyKagaml)
