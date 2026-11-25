@@ -198,15 +198,15 @@ class Game {
     for (let i = 0; i < 4; i++) {
       for (let j = 0; j < 4; j++) {
         const currentNumber = this.numbers[i][j];
-        const curentCell = this.cells[i][j];
+        const currentCell = this.cells[i][j];
 
-        curentCell.className = 'field-cell';
+        currentCell.className = 'field-cell';
 
         if (currentNumber) {
-          curentCell.classList.add(`field-cell--${currentNumber}`);
-          curentCell.innerText = currentNumber;
+          currentCell.classList.add(`field-cell--${currentNumber}`);
+          currentCell.innerText = currentNumber;
         } else {
-          curentCell.innerText = '';
+          currentCell.innerText = '';
           // document.querySelector('field-cell').classList.length--;
         }
       }

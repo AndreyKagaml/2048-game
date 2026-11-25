@@ -1,0 +1,37 @@
+.game-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  background: #edc22e;
+  color: #f9f6f2;
+  width: 75px;
+  height: 75px;
+  font-size: 24px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #d6cdc4;
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+  color: #776e65;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0 8px 0 0;
+}

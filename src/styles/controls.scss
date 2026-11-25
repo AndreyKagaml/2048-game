@@ -1,0 +1,34 @@
+.controls {
+  display: flex;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #f9f6f2;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  width: 75px;
+  height: 75px;
+
+  transition: 0.25s ease background;
+}
+
+.start {
+  background: #1dae28;
+  font-size: 20px;
+
+  &:hover {
+    background: #179921;
+  }
+}
+
+.restart {
+  background: #f1b2b2;
+
+  &:hover {
+    background: #f87474;
+  }
+}

@@ -1,0 +1,106 @@
+@keyframes tile-appear {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  30% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+
+  70% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.field-cell {
+  background: #d6cdc4;
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+  color: #776e65;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: center;
+  user-select: none;
+
+  &--2 {
+    background: #eee4da;
+  }
+
+  &--4 {
+    background: #ede0c8;
+  }
+
+  &--8 {
+    background: #f2b179;
+    color: #f9f6f2;
+  }
+
+  &--16 {
+    background: #f59563;
+    color: #f9f6f2;
+  }
+
+  &--32 {
+    background: #f67c5f;
+    color: #f9f6f2;
+  }
+
+  &--64 {
+    background: #f65e3b;
+    color: #f9f6f2;
+  }
+
+  &--128 {
+    background: #edcf72;
+    color: #f9f6f2;
+  }
+
+  &--256 {
+    background: #edcc61;
+    color: #f9f6f2;
+  }
+
+  &--512 {
+    background: #edc850;
+    color: #f9f6f2;
+  }
+
+  &--1024 {
+    background: #edc53f;
+    color: #f9f6f2;
+  }
+
+  &--2048 {
+    background: #edc22e;
+    color: #f9f6f2;
+  }
+}
+
+.game-field {
+  background: #bbada0;
+  border-spacing: 10px;
+  border-radius: 5px;
+}
+
+.field-cell--2,
+.field-cell--4,
+.field-cell--8,
+.field-cell--16,
+.field-cell--32,
+.field-cell--64,
+.field-cell--128,
+.field-cell--256,
+.field-cell--512,
+.field-cell--1024,
+.field-cell--2048 {
+  animation: tile-appear 0.2s ease-out;
+}
